@@ -2,9 +2,9 @@
 const Style = () => {
 
     const myStyles = {
-        height: "400px",
+        height: "200px",
         backgroundColor:"blue",
-        width:"400px"
+        width:"200px"
     }
 
   return (

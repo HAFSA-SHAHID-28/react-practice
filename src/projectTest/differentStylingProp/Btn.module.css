@@ -1,0 +1,30 @@
+.btn {
+    border: 0;
+    outline: 0;
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+.icon {
+
+    padding: .2em;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.iconBg {
+    background-color: white;
+    color: black;
+}
+
+.btn:hover .iconBg {
+    background-color: transparent;
+    color: white;
+}
+
+.danger{
+    background-color: red;
+}
