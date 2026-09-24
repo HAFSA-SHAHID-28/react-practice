@@ -14,11 +14,14 @@ export const fetchPosts = async () => {
 
 // //////////////////////////////////  detail post
 
- export const fetchPostsD = async ({id}) => {
+ export const fetchPostsD = async (id) => {
           try {
             const res = await fetch(`https://dummyjson.com/products/${id}`);
             const data = await res.json();
             return data;
+
+            console.log(data);
+            
             
       
           } catch (error) {

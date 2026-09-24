@@ -1,15 +1,13 @@
-import State from './state/State'
-import Products from './UseEffect/Products'
 import StopWatch from './UseEffect/StopWatch'
 import UseEffect from './UseEffect/UseEffect'
+import Products from './UseEffect/Products'
 
 const Main = () => {
   return (
     <>
-      {/* <State /> */}
-      {/* <UseEffect/> */}
-      {/* <Products/> */}
+      <UseEffect/>
       <StopWatch/>
+      <Products/>
     </>
   )
 }

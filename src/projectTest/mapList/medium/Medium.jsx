@@ -1,13 +1,7 @@
 
-
 const Medium = ({ title, price, colors, features }) => {
-
-
-
-
-    return (
+ return (
         <>
-
             <h3>{title}</h3>
             <ul>
                 <li>Name: {title}</li>
@@ -35,8 +29,6 @@ const Medium = ({ title, price, colors, features }) => {
                     </li>)
                 }
             </ul>
-
-
 
         </>
     )

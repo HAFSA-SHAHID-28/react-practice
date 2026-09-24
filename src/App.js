@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Main from "./components/routing2/Main";
+// import React, { Component } from "react";
+// import Main from "./components/routing2/Main";
 // import Main from "./projectTest/routingDetailPage/Main";
 // import Main from "./components/routing/Main";
 // import Test from './projectTest/stateToggle/Test';
@@ -16,6 +16,9 @@ import Main from "./components/routing2/Main";
 // import Main from './components/props/Main';
 // import Main from './components/hooks/Main';
 // import Test from './projectTest/useEffectTest/Test';
+// import Main from "./components/liftingStateUp/Main";
+
+import Main from "./projectTest/liftingStateUp/moviesFinder/Main";
 
 // CLASS COMPONENTS EXAMPLE
 
@@ -47,22 +50,24 @@ import Main from "./components/routing2/Main";
 function App() {
   return (
     <>
-      {/* <Main/>  ------------- medium */}
-      {/* <Main/> ---------------  easy */}
-      {/* <Main/> ----------- props */}
-      {/* <Task/>  ----------  props btn task */}
-      {/* <Style/> */}
-      {/* <Main/> */}
-      {/*<Main />  ---------- state */}
-      {/* <Test /> */}
-      {/* <Test2/> --------  usestate test */}
-      {/* <Header/> */}
+      {/* <Main/>  -------------  medium */}
+      {/* <Main/>  -------------  easy */}
+      {/* <Main/>  -------------  props */}
+      {/* <Task/>  -------------  props btn task */}
+      {/* <Style/> ------------- style  */}
+      {/* <Main/>  -------------  header */}
+      {/*<Main />  -------------  state */}
+      {/* <Test /> ------------- state toggle  */}
+      {/* <Test2/>  -------------  usestate test */}
+      {/* <Header/>  -------------  header */}
       {/* <Gallery2/> */}
       {/* <Gallery/> */}
-      {/* <Test/> ------------  use effect test1 */}
-      {/* <Main />  --------  routing */}
-      {/* <Main/>  --------------    routing practice detail page */}
-      <Main />  {/* -------------------------   routing 2*/}
+      {/* <Test/>  -------------  use effect test1 */}
+      {/* <Main />  -------------  routing */}
+      {/* <Main/>  -------------  routing practice detail page */}
+      {/* <Main />  -------------  routing 2*/}
+       {/* <Main />   -------------    lifting state up */}
+       <Main />
     </>
   );
 }

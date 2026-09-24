@@ -63,7 +63,7 @@ const Main = () => {
           />
 
           <Route 
-          loader={({params}) => fetchPostsD()} 
+          loader={({params}) => fetchPostsD(params.id)} 
           path="/products/:id" 
           errorElement={<h1>My Custom Error</h1>} 
           element={< PostDetail/>} 
@@ -83,7 +83,9 @@ const Main = () => {
           <Route path="posts" element={<h1 className="display-2">User Post Page</h1>} />
         </Route>
       </>
-    )
+    ),{
+      hydration:{fallbackElement: <h1>Loading</h1>}
+    }
   )
 
 
@@ -94,7 +96,7 @@ const Main = () => {
   return (
     <>
 
-      <RouterProvider router={router} />
+      <RouterProvider  router={router} />
 
     </>
   )
