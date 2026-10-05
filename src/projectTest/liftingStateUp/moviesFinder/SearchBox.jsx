@@ -10,7 +10,7 @@ const SearchBox = ({search, setSearch}) => {
         value={search}
         onChange={(e) => setSearch(e.target.value)}
     />
-
+    
     </>
   )
 }
