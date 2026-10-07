@@ -1,4 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import Step1 from './Step1'
+import Step2 from './Step2'
+import Step3 from './Step3'
+import Output from './Output'
 
 const Form = () => {
 
@@ -25,9 +29,43 @@ const Form = () => {
     {
         step === 1 && (
             <Step1
+                data = {formData}
+                setData = {setFormData}
+                setStep = {setStep}
+            />
         )
     }
 
+
+    {
+        step === 2 && (
+            <Step2
+                data = {formData}
+                setData = {setFormData}
+                setStep = {setStep}
+            />
+        )
+    }
+
+
+       {
+        step === 3 && (
+            <Step3
+                data = {formData}
+                setData = {setFormData}
+                setStep = {setStep}
+            />
+        )
+    }
+
+
+    {
+        step === 4 && (
+            <Output
+                data = {formData}
+            />
+        )
+    }
 
 
     </>

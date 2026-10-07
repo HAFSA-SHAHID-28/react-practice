@@ -17,8 +17,15 @@
 // import Main from './components/hooks/Main';
 // import Test from './projectTest/useEffectTest/Test';
 // import Main from "./components/liftingStateUp/Main";
+// import Main from "./projectTest/liftingStateUp/moviesFinder/Main";
 
-import Main from "./projectTest/liftingStateUp/moviesFinder/Main";
+
+import Form from './components/liftingStateUp/multiStepForm/Form'
+
+
+
+
+
 
 // CLASS COMPONENTS EXAMPLE
 
@@ -67,7 +74,10 @@ function App() {
       {/* <Main/>  -------------  routing practice detail page */}
       {/* <Main />  -------------  routing 2*/}
        {/* <Main />   -------------    lifting state up */}
-       <Main />
+       {/* <Main /> ---------  /moviesFinder/Main */}
+
+
+       <Form />
     </>
   );
 }
