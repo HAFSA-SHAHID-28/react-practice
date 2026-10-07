@@ -40,7 +40,7 @@ const Step1 = ({data, setData, setStep}) => {
 
         <br /><br /><br />
 
-        <button onClick={() => setStep=(2)}>Next Step</button>
+        <button onClick={() => setStep(2)}>Next Step</button>
     
     </>
 

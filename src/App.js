@@ -18,9 +18,9 @@
 // import Test from './projectTest/useEffectTest/Test';
 // import Main from "./components/liftingStateUp/Main";
 // import Main from "./projectTest/liftingStateUp/moviesFinder/Main";
+// import Form from './components/liftingStateUp/multiStepForm/Form'
 
-
-import Form from './components/liftingStateUp/multiStepForm/Form'
+import UseRefMain from "./components/hooks/useRef/UseRefMain";
 
 
 
@@ -75,9 +75,11 @@ function App() {
       {/* <Main />  -------------  routing 2*/}
        {/* <Main />   -------------    lifting state up */}
        {/* <Main /> ---------  /moviesFinder/Main */}
+      {/* <Form />  ----- multi step form */}
 
 
-       <Form />
+
+      <UseRefMain />
     </>
   );
 }

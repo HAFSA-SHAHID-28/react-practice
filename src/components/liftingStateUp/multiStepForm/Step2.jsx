@@ -41,8 +41,8 @@ const Step2 = ({ data, setData, setStep }) => {
 
         <br /><br /><br />
 
-        <button onClick={() => setStep=(1)}>Prev Step</button>
-        <button onClick={() => setStep=(3)}>Next Step</button>
+        <button onClick={() => setStep(1)}>Prev Step</button>
+        <button onClick={() => setStep(3)}>Next Step</button>
     
     </>
 
