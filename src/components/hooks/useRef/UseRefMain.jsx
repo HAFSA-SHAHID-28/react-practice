@@ -4,6 +4,7 @@ const UseRefMain = () => {
 
     const ref = useRef(null);
     const ref2 = useRef(null);
+    const ref3 = useRef(null);
 
 
     const [name, setName] = useState("");
@@ -39,6 +40,7 @@ const UseRefMain = () => {
 
     <button  onClick={handleSetValue}>Set Value</button>
     <button ref={ref2} onClick={handleReset}>Reset</button>
+    <button ref={ref3} onClick={handleReset}>Reset</button>
 
 </>  )
 }
