@@ -1,8 +1,18 @@
 import React from 'react'
+import Comp2 from './Comp2'
 
-const Comp1 = () => {
+const Comp1 = ({name}) => {
   return (
-    <div>Comp1</div>
+    <>
+    
+    
+    <h1>comp1</h1>
+
+<hr />
+    <Comp2 name={name}/>
+    
+    
+    </>
   )
 }
 
