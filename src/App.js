@@ -17,12 +17,12 @@
 // import Main from './components/hooks/Main';
 // import Test from './projectTest/useEffectTest/Test';
 // import Main from "./components/liftingStateUp/Main";
-// import Main from "./projectTest/liftingStateUp/moviesFinder/Main";
+import Main from "./projectTest/liftingStateUp/moviesFinder/Main";
 // import Form from './components/liftingStateUp/multiStepForm/Form'
 // import UseRefMain from "./components/hooks/useRef/UseRefMain";
 // import FocusInput from "./projectTest/UseRefTest/FocusInput";
 
-import SelectAll from "./projectTest/UseRefTest/SelectAll";
+// import SelectAll from "./projectTest/UseRefTest/SelectAll";
 
 
 
@@ -76,13 +76,13 @@ function App() {
       {/* <Main/>  -------------  routing practice detail page */}
       {/* <Main />  -------------  routing 2*/}
       {/* <Main />   -------------    lifting state up */}
-      {/* <Main /> ---------  /moviesFinder/Main */}
+      <Main /> 
       {/* <Form />  ----- multi step form */}
       {/* <UseRefMain /> ------------components/hooks/useRef/UseRefMain */}
 {/* <FocusInput />  --------./projectTest/UseRefTest/FocusInput */}
 
 
-<SelectAll />
+{/* <SelectAll /> */}
     </>
   );
 }

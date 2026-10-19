@@ -38,22 +38,11 @@ const Movies = ({searchText}) => {
             title: "Inception",
             genre: "Sci Fic"
         },
-        
     ];
-
-
-
-    // let filtered = [];
-    // filtered = movies?.filter(
-    //     (movie) => movie?.title.toLowerCase().includes(searchText?.toLowerCase()) ||  movie?.genre.toLowerCase().includes(searchText?.toLowerCase())
-    //     // (movie) => movie?.title.toLowerCase().startsWith(searchText?.toLowerCase()) ||  movie?.genre.toLowerCase().startsWith(searchText?.toLowerCase()) 
-
-    // )
 
     const filtered = movies?.filter(
         (movie) => movie?.title.toLowerCase().includes(searchText?.toLowerCase()) ||  movie?.genre.toLowerCase().includes(searchText?.toLowerCase())
     )
-
 
   return (
     <>

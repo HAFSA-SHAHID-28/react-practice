@@ -4,18 +4,14 @@ const FocusInput = () => {
 
     const focus = useRef(null);
 
-
 const handleFocus = () =>{
 
     focus.current.focus()
 
 }
-
-
   return (
     <>
-    
-    
+  
         <input 
         ref={focus}
         type="text" 
