@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Comp3 = () => {
+const Comp3 = ({name}) => {
   return (
-    <div>Comp3</div>
+     <h1>ComponentC ----- {name}</h1>
   )
 }
 

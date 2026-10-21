@@ -15,6 +15,7 @@ const Main = () => {
     <Comp1 name={username}/>
 
 
+{/* <button className='button'  onClick={()=>window.print()} >Download</button> */}
     </div>
   )
 }
